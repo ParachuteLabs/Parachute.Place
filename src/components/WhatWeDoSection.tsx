@@ -34,7 +34,7 @@ const WhatWeDoSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-light mb-4">
-            What <span className="bg-parachute-yellow px-2 py-1">Parachute</span> does for you.
+            What <span className="bg-parachute-yellow px-2 py-1">Parachute◌</span> does for you.
           </h2>
         </div>
         
