@@ -34,7 +34,7 @@ const NewsletterSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center space-y-8">
           <h2 className="text-4xl lg:text-5xl font-light leading-tight">
-            Find your place
+            Find your place with
             <span className="block bg-parachute-yellow px-2 py-1 mt-2 inline-block">
               Parachute◌
             </span>
