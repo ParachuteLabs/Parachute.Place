@@ -1,33 +1,6 @@
-import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { useToast } from '@/hooks/use-toast';
-import deviceImage from '@/assets/device-image.jpg';
+import React from 'react';
 
 const NewsletterSection = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const { toast } = useToast();
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!name || !email) {
-      toast({
-        title: "Please fill in all fields",
-        variant: "destructive",
-      });
-      return;
-    }
-    
-    // Here you would integrate with your newsletter service
-    toast({
-      title: "Thank you for subscribing!",
-      description: "We'll keep you updated on our journey.",
-    });
-    
-    setName('');
-    setEmail('');
-  };
 
   return (
     <section className="py-20 bg-parachute-light-gray">
@@ -40,30 +13,17 @@ const NewsletterSection = () => {
             </span>
           </h2>
           
-          <form onSubmit={handleSubmit} className="space-y-4 max-w-md mx-auto">
-            <Input
-              type="text"
-              placeholder="Your Name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              className="bg-background border-parachute-gray/30 rounded-full h-12"
+          <div className="flex justify-center">
+            <iframe 
+              src="https://parachutelabs.substack.com/embed" 
+              width="480" 
+              height="320" 
+              style={{border: '1px solid #EEE', background: 'white'}} 
+              frameBorder="0" 
+              scrolling="no"
+              className="max-w-full"
             />
-            <Input
-              type="email"
-              placeholder="Your Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="bg-background border-parachute-gray/30 rounded-full h-12"
-            />
-            <Button 
-              type="submit" 
-              variant="parachute" 
-              size="lg" 
-              className="w-full h-12 rounded-full"
-            >
-              Let's Begin.
-            </Button>
-          </form>
+          </div>
           
           <div className="text-sm text-parachute-gray space-y-1">
             <p>© Parachute Labs, A Public Benefit Corp.</p>
