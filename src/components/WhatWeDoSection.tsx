@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '@/components/ui/button';
 import speakImage from '@/assets/speak-feature.jpg';
 import annotateImage from '@/assets/annotate-feature.jpg';
 import simplifyImage from '@/assets/simplify-feature.jpg';
@@ -10,22 +9,19 @@ const WhatWeDoSection = () => {
       title: "Speak",
       subtitle: "Locally.",
       description: "Tap to start recording.",
-      image: speakImage,
-      buttonText: "Find Your Voice"
+      image: speakImage
     },
     {
       title: "Annotate",
       subtitle: "Anytime.",
       description: "Funnel to-do's, now.",
-      image: annotateImage,
-      buttonText: "Organize Your Story"
+      image: annotateImage
     },
     {
       title: "Simplify",
       subtitle: "Life.",
       description: "Slow down. Catch up.",
-      image: simplifyImage,
-      buttonText: "Own Your Path"
+      image: simplifyImage
     }
   ];
 
@@ -55,10 +51,6 @@ const WhatWeDoSection = () => {
                   <p className="text-lg text-parachute-gray">{feature.subtitle}</p>
                   <p className="text-base text-parachute-gray">{feature.description}</p>
                 </div>
-                
-                <Button variant="parachute" size="sm" className="rounded-full">
-                  {feature.buttonText}
-                </Button>
               </div>
             </div>
           ))}
