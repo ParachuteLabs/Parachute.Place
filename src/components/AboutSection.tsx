@@ -25,21 +25,33 @@ const AboutSection = () => {
             
             <div className="space-y-8">
               <div className="space-y-4">
-                <h4 className="text-xl font-medium">Aaron Gabriel Neyer</h4>
+                <h4 className="text-xl font-medium">
+                  <a href="https://www.linkedin.com/in/unforced/" target="_blank" rel="noopener noreferrer" className="hover:text-parachute-yellow transition-colors">
+                    Aaron Gabriel Neyer
+                  </a>
+                </h4>
                 <p className="text-parachute-gray leading-relaxed">
                   Aaron Gabriel Neyer is a builder and communicator with a deep interest in the meeting of the natural world and the digital world. With degrees in computer science, Ecopsychology, and creative technology & design (in progress); and experience in engineering & leadership at various startups and in developer relations at Google; he has spent much of his life exploring from an embodied level what it means to be alive, while also diving deep into building systems to better understand how we can organize our information to live more connected and coherent lives.
                 </p>
               </div>
 
               <div className="space-y-4">
-                <h4 className="text-xl font-medium">Jon Bo</h4>
+                <h4 className="text-xl font-medium">
+                  <a href="https://www.linkedin.com/in/jborichevskiy/" target="_blank" rel="noopener noreferrer" className="hover:text-parachute-yellow transition-colors">
+                    Jon Bo
+                  </a>
+                </h4>
                 <p className="text-parachute-gray leading-relaxed">
                   Jon Bo is a creative technologist seeking to delight people with the magic of computers. Past experience includes building interfaces and architecture for collaborative pixel art games on blockchain, composable generative AI workflows, and large scale data aggregation research tooling. Previously founding engineer at Illumis (acquired by ComplySci), Ressemble (sales team note-taking), and Relational (cross-disciplinary design studio) with various experiences hosting community events; both in person and online.
                 </p>
               </div>
 
               <div className="space-y-4">
-                <h4 className="text-xl font-medium">Neil Yarnal</h4>
+                <h4 className="text-xl font-medium">
+                  <a href="https://www.linkedin.com/in/neilyarnal/" target="_blank" rel="noopener noreferrer" className="hover:text-parachute-yellow transition-colors">
+                    Neil Yarnal
+                  </a>
+                </h4>
                 <p className="text-parachute-gray leading-relaxed">
                   Neil Yarnal is Creative Director and Brand Designer with 15 years of experience helping businesses build sustainable identities. Neil has worked across every step of the creative pipeline— from building forward-thinking Design incubators with the UNGC, to helping NBC Entertainment rethink their color theory; his work focuses on play, imagination, and ROI. Today, Neil's work is centered around "The Who* Work" and new, creative fields like "Communal* Design" where living frameworks reorient strategic engagements around identity, intent, and relational trust, rather than extractive metrics or transactional KPIs. Catalyzed by Branded Products—purpose-driven goods and services that are integral to how products and their ecosystems work, feel, and connect with users— he is excited about the future of interoperable experiences.
                 </p>
