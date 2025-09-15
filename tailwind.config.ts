@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        parachute: {
+          yellow: "hsl(var(--parachute-yellow))",
+          black: "hsl(var(--parachute-black))",
+          gray: "hsl(var(--parachute-gray))",
+          "light-gray": "hsl(var(--parachute-light-gray))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
