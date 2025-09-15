@@ -1,12 +1,14 @@
 import React from 'react';
+import parachuteLogo from '@/assets/parachute-logo.svg';
 
 const Logo = ({ className = "" }: { className?: string }) => {
   return (
     <div className={`flex items-center gap-2 ${className}`}>
-      <div className="relative flex items-center">
-        <span className="text-xl font-medium text-parachute-black">Parachute</span>
-        <span className="ml-1 text-xl text-parachute-black">◌</span>
-      </div>
+      <img 
+        src={parachuteLogo} 
+        alt="Parachute Labs" 
+        className="h-8 w-auto"
+      />
     </div>
   );
 };
