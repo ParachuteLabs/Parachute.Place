@@ -53,7 +53,7 @@ const AboutSection = () => {
                   </a>
                 </h4>
                 <p className="text-parachute-gray leading-relaxed">
-                  Neil Yarnal is Creative Director and Brand Designer with 15 years of experience helping businesses build sustainable identities. Neil has worked across every step of the creative pipeline— from building forward-thinking Design incubators with the UNGC, to helping NBC Entertainment rethink their color theory; his work focuses on play, imagination, and ROI. Today, Neil's work is centered around "The Who* Work" and new, creative fields like "Communal* Design" where living frameworks reorient strategic engagements around identity, intent, and relational trust, rather than extractive metrics or transactional KPIs. Catalyzed by Branded Products—purpose-driven goods and services that are integral to how products and their ecosystems work, feel, and connect with users— he is excited about the future of interoperable experiences.
+                  Neil Yarnal is… Creative Director and Brand Designer with 15 years of experience helping businesses build sustainable identities, Neil has worked across every step of the creative pipeline. From co-building forward-thinking Design incubators with the UNGC, to helping Commonweal.org find purpose & place, Neil's work is centered around Who We* Are and new creative fields like "Communal* Design." He is devoted to creating living frameworks that reorient strategic engagements around identity, intent, and relational trust, rather than extractive metrics or transactional KPIs and is excited about the future of interoperable Branded Products.
                 </p>
               </div>
             </div>
