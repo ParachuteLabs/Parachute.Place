@@ -21,8 +21,13 @@ const Hero = () => {
                 </span>
               </h1>
             </div>
-            <Button variant="parachute" size="lg" className="px-8 py-4 text-base">
-              Invest Today
+            <Button 
+              variant="parachute" 
+              size="lg" 
+              className="px-8 py-4 text-base rounded-full"
+              onClick={() => document.querySelector('#about-section')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Learn More
             </Button>
           </div>
           
