@@ -26,7 +26,7 @@ const AboutSection = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h4 className="text-xl font-medium">
-                  <a href="https://www.linkedin.com/in/unforced/" target="_blank" rel="noopener noreferrer" className="hover:text-parachute-yellow transition-colors">
+                  <a href="https://www.linkedin.com/in/unforced/" target="_blank" rel="noopener noreferrer" className="underline decoration-1 hover:text-[#868686] transition-colors">
                     Aaron Gabriel Neyer
                   </a>
                 </h4>
@@ -37,7 +37,7 @@ const AboutSection = () => {
 
               <div className="space-y-4">
                 <h4 className="text-xl font-medium">
-                  <a href="https://www.linkedin.com/in/jborichevskiy/" target="_blank" rel="noopener noreferrer" className="hover:text-parachute-yellow transition-colors">
+                  <a href="https://www.linkedin.com/in/jborichevskiy/" target="_blank" rel="noopener noreferrer" className="underline decoration-1 hover:text-[#868686] transition-colors">
                     Jon Bo
                   </a>
                 </h4>
@@ -48,7 +48,7 @@ const AboutSection = () => {
 
               <div className="space-y-4">
                 <h4 className="text-xl font-medium">
-                  <a href="https://www.linkedin.com/in/neilyarnal/" target="_blank" rel="noopener noreferrer" className="hover:text-parachute-yellow transition-colors">
+                  <a href="https://www.linkedin.com/in/neilyarnal/" target="_blank" rel="noopener noreferrer" className="underline decoration-1 hover:text-[#868686] transition-colors">
                     Neil Yarnal
                   </a>
                 </h4>
