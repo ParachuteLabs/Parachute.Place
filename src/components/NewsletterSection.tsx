@@ -26,10 +26,10 @@ const NewsletterSection = () => {
           </div>
           
           <div className="text-sm text-parachute-gray space-y-1">
-            <p>© Parachute Labs, A Public Benefit Corp.</p>
+            <p>© Parachute◌ Labs, A Public Benefit Corp.</p>
             <p>All Rights Reserved.</p>
             <p className="mt-4">
-              Reach out at <a href="mailto:hello@parachute.place" className="underline hover:text-parachute-yellow transition-colors">hello@parachute.place</a>
+              Reach out, say <a href="mailto:hello@parachute.place" className="underline decoration-1 border-b border-black hover:text-[#868686] transition-colors">hello@parachute.place</a>
             </p>
           </div>
         </div>
