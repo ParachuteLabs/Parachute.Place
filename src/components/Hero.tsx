@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import Logo from './Logo';
-import heroImage from '@/assets/hero-voice-recording.jpg';
+import heroImage from '@/assets/hero-voice-recording-new.jpg';
 const Hero = () => {
   return <section className="relative min-h-screen flex items-center justify-center bg-background overflow-hidden">
       <div className="container mx-auto px-6 py-20">
