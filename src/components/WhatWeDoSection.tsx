@@ -1,6 +1,6 @@
 import React from 'react';
 import speakImage from '@/assets/speak-feature.jpg';
-import annotateImage from '@/assets/annotate-feature.jpg';
+import annotateImage from '@/assets/annotate-feature-new.jpg';
 import simplifyImage from '@/assets/simplify-feature.jpg';
 
 const WhatWeDoSection = () => {
