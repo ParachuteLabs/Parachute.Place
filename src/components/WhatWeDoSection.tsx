@@ -34,8 +34,8 @@ const WhatWeDoSection = () => {
           </h2>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
-          {features.map((feature, index) => (
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+          {features.slice(0, 2).map((feature, index) => (
             <div key={index} className="space-y-6">
               <div className="aspect-square overflow-hidden rounded-2xl">
                 <img 
